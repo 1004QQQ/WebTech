@@ -1,0 +1,28 @@
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif; 
+    background-color: #F1F5F2 ;
+    color: #0B7A75;
+    /*#F1F5F2 is Baby Powder, #0B7A75 is Pine Green*/
+}
+h1,h2,h3{
+    color: midnightblue;
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    font-weight: bold;
+}
+li{
+    color: #A44A3F;
+    font-style: italic;
+}
+.Academic{
+    color: #B95F89;
+}
+blockquote{
+    font-style: italic;
+    font-family: 'Palatino Linotype','Book Antiqua', serif;
+}
+a{
+    text-decoration: none;
+}
+#bald{
+    font-weight: bold;
+}
