@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+@font-face{
+    font-family: 'Barriecito-Regular'; 
+    src: url("../fonts/Barriecito-Regular.ttf")
+}
+@font-face{
+    font-family: 'Oswald-VariableFont_wght';
+    src: url("../fonts/Oswald-VariableFont_wght.ttf")
+}
+@font-face{
+    font-family: 'Roboto-Light';
+    src: url("../fonts/Roboto-Light.ttf")
+}
+body{
+    font-family: 'Oswald-VariableFont_wght', Helvetica, sans-serif; 
+    background-color: #F1F5F2 ;
+    color: #0B7A75;
+    /*#F1F5F2 is Baby Powder, #0B7A75 is Pine Green*/
+}
+h1,h2,h3{
+    color: midnightblue;
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    font-weight: bold;
+}
+h1,h2{
+    font-family: 'Barriecito-Regular',sans-serif;
+}
+li{
+    color: #A44A3F;
+    font-style: italic;
+    font-family: 'Dosis';
+}
+.Academic{
+    color: #B95F89;
+}
+blockquote{
+    font-style: italic;
+    font-family: 'Palatino Linotype','Book Antiqua', serif;
+}
+a{
+    text-decoration: none;
+}
+#bald{
+    font-weight: bold;
+}
+td,th{
+    font-family: 'Roboto-Light';
+}
+/*The approach I found easier was importing all on top and then add when needed. I think it's easier when the font is downloaded because if not, you have to find each link on the Google website. To be honest, it also depends on workflow.*/
